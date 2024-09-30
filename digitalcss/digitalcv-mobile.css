@@ -1,0 +1,54 @@
+@media only screen and (max-width: 480px) {
+  /* LAYOUT Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    justify-content: start;
+  }
+
+  /* VỊ TRÍ CÁC BOX */
+  .box1 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .box2 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .box3 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .box5 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  /* BOX GOALS */
+  .goal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* BOX SCOPES */
+  .scopes-content {
+    flex-direction: column;
+  }
+
+  /* BOX TEAM */
+  .member {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* BOX PRIMARY */
+  .pri-flex-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* BOX TIMELINE */
+  .project {
+    flex-direction: column;
+  }
+}

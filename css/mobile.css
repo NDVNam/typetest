@@ -1,0 +1,104 @@
+@media screen and (max-width: 480px) {
+  /* NAVBAR */
+  .text-nav {
+    display: none;
+  }
+  .nav-container {
+    flex-direction: column;
+
+    align-items: start;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    text-align: start;
+    border: none !important;
+    padding: 16px;
+  }
+  #nav-bar {
+    margin-top: 10px;
+    display: block;
+  }
+  .avt-banner {
+    display: none;
+  }
+  /* ABOUT */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  #personal-info {
+    padding-left: 20px;
+  }
+
+  .personal-info,
+  .target p {
+    font-size: 13px;
+  }
+  #personal-info,
+  #target {
+    width: 100%;
+  }
+  .submit {
+    margin-top: 20px;
+  }
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cer-content1 {
+    border-bottom: 1.5px solid #d6c08d;
+  }
+  .cer-content3 {
+    border-bottom: 1.5px solid #d6c08d;
+    border-top: none;
+    padding-top: 0;
+  }
+  .cer-content2 {
+    border-left: none;
+    border-bottom: 1.5px solid #d6c08d;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-content {
+    margin: 0;
+    font-size: 10px;
+    padding: 8px 2px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 25%;
+  }
+  #footer a:link,
+  a:visited {
+    font-size: 13px;
+  }
+  #footer a:hover,
+  a:active {
+    color: #1a1919;
+    font-size: 18px;
+    cursor: grab;
+  }
+  #footer a:link,
+  a:visited .icon {
+    font-size: 20px !important;
+  }
+  .contact > a > p {
+    display: none !important;
+  }
+}

@@ -1,0 +1,384 @@
+* {
+  margin: 0px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #1a1919;
+}
+
+section > .container-fluid {
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+  height: 100%;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* PHẦN BANNER */
+.img-banner {
+  position: relative;
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  filter: brightness(70%);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #ecf0f1;
+  font-size: 24px;
+  text-align: center;
+}
+.text-banner span {
+  color: #b9bec0;
+}
+/* MY AVT */
+.avt-default {
+  height: 260px;
+  width: 240px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ffff;
+}
+.avt-banner {
+  position: absolute;
+  display: inline-block;
+  bottom: -20%;
+
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* PHẦN NAV BAR */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid #dfe6e9;
+}
+.nav-bar a:link,
+.nav-bar a:visited {
+  text-decoration: none;
+  color: #1a1919;
+  text-transform: uppercase;
+  padding: 60px 20px 32px;
+  border-left: 0.5px solid #dfe6e9;
+}
+.nav-bar a:hover,
+.nav-bar a:active {
+  font-weight: bold;
+  cursor: grab;
+}
+.text-nav {
+  display: inline-block;
+  margin: 10px 70px 0;
+  text-transform: none;
+}
+.text-nav h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.text-nav span {
+  font-size: 15px;
+  color: #b9bec0;
+}
+
+.icon {
+  color: #0abde3;
+  font-weight: bold;
+}
+
+/* PHẦN ABOUT */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  line-height: 2;
+}
+.section-title {
+  font-size: 34px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+li {
+  color: #525252;
+}
+li span {
+  font-weight: bold;
+  color: #1a1919;
+}
+.info {
+  padding: 15px;
+}
+.target {
+  /* padding: 31px 0 252px 0; */
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+  font-size: 18px;
+  background-color: #73737323;
+}
+
+.target p {
+  color: #363636;
+}
+#personal-info {
+  height: 100%;
+  padding-bottom: 30px;
+  width: 100%;
+  padding-left: 40px;
+  background-color: #22222223;
+
+  font-size: 18px;
+}
+
+/* THÔNG TIN */
+
+/* KINH NGHIỆM --> KỸ NĂNG */
+.box {
+  height: 100%;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  column-gap: 5%;
+  row-gap: 20px;
+  align-items: center;
+}
+.job-box-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  border: 1px solid #dfe6e9;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  color: #434343;
+  height: 100%;
+  width: 100%;
+}
+.job-title {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.job-icon {
+  font-size: 48px;
+}
+.job-content {
+  grid-column: 1/-1;
+  line-height: 2;
+
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+}
+.now {
+  background-color: #0abde3;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 8px;
+  font-style: italic;
+  margin-left: 2px;
+  text-align: center;
+}
+.list {
+  position: relative;
+  padding: 10px;
+}
+.list1 {
+  position: relative;
+  padding: 10px;
+}
+.job-node::before {
+  content: "•";
+  color: #0abde3;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+
+  left: -3%;
+}
+
+.time-info {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* style SỞ THÍCH */
+.fav-box {
+  display: flex;
+  flex-shrink: 1;
+  gap: 5%;
+}
+.hobby-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobby-content {
+  align-self: center;
+}
+.icon-hobby {
+  display: inline-block;
+
+  width: 50px;
+  height: 50px;
+  color: #0abde3;
+  border: 2px solid #0abde3;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+
+  align-self: center;
+}
+.icon-hobby > p {
+  color: #1a1919;
+}
+
+/* THANG ĐIỂM-KỸ NĂNG & NGÔN NGỮ */
+.checked {
+  background-color: #0abde3;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.unchecked {
+  background-color: #cfcfcf;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+/* CHỨNG CHỈ-GIẢI THƯỞNG */
+.certi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.img-cc {
+  width: 240px;
+  margin-right: 10px;
+}
+.cer-content {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.content {
+  box-sizing: content-box;
+}
+.cer-content2 {
+  border-left: 1.5px solid #d6c08d;
+  padding-left: 20px;
+}
+
+.cer-content3 {
+  border-top: 1.5px solid #d6c08d;
+  padding-top: 80px;
+  grid-column: 1/3;
+}
+.content p {
+  color: #959798;
+  font-size: 16px;
+}
+
+/* DỰ ÁN */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 40px;
+}
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.project-title {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.project-content {
+  padding: 10px;
+  border-top: 1px solid #bdc3c7;
+}
+table {
+  border-collapse: collapse;
+  font-size: 13px;
+}
+td {
+  padding: 8px;
+}
+tr td:first-child {
+  width: 100px;
+  vertical-align: top;
+  font-weight: bold;
+}
+tr {
+  border: 1px solid #bdc3c7;
+}
+table tr:last-child {
+  border-bottom: none;
+}
+
+/* FOOTER */
+#footer {
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+
+#footer a:link,
+#footer a:visited {
+  color: #959798;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+}
+#footer a:hover,
+#footer a:active {
+  color: #1a1919;
+  font-size: 20px;
+  cursor: grab;
+}
+.footer-container {
+  display: flex !important;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* error-email */
+.error-email {
+  font-weight: 600;
+}
+.hidden {
+  display: none;
+}

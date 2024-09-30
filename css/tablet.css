@@ -1,0 +1,88 @@
+@media (min-width: 481px) and (max-width: 979px) {
+  /* NAVBAR */
+
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 18px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 30px;
+  }
+  .avt-banner {
+    display: none;
+  }
+
+  /* ABOUT */
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+  #personal-info {
+    padding-left: 20px;
+  }
+
+  .personal-info,
+  .target p {
+    font-size: 15px;
+  }
+
+  .info-grid > *:nth-child(1) {
+    height: 850px;
+  }
+  .info-grid > *:nth-child(2) {
+    height: 900px;
+  }
+  .info-grid > *:nth-child(3) {
+    height: 850px;
+  }
+  .info-grid > *:nth-child(4) {
+    height: 450px;
+  }
+  .info-grid {
+    display: block;
+    columns: 2;
+    height: none;
+  }
+  .job-box-grid {
+    break-inside: avoid;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .cer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-title {
+    font-size: 13px;
+  }
+  .project-content {
+    margin: 0;
+    font-size: 10px;
+    padding: 8px 2px;
+  }
+  .project-content span {
+    margin-right: 5px !important;
+  }
+
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 25%;
+  }
+  #footer a:link,
+  a:visited {
+    font-size: 15px;
+    /* padding: 20px 0; */
+  }
+}
